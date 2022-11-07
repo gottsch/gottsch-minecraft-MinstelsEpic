@@ -2,7 +2,7 @@
 name="minstrelsepic:dagger"
 min=1
 max=4
-classes=["WA", "BA", "CO", "MA", "SO", WI"]
+classes=["WA", "BA", "CO", "MA", "SO", "WI"]
 
 [[weapons]]
 name="minstrelsepic:short_sword"
