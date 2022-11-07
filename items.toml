@@ -1,0 +1,15 @@
+[[weapons]]
+name="minstrelsepic:dagger"
+min=1
+max=4
+classes=["WA", "BA", "CO", "MA", "SO", WI"]
+
+[[weapons]]
+name="minstrelsepic:short_sword"
+min=1
+max=8
+classes=["WA", "BA"]
+
+[[instruments]]
+name="minstrelsepic:fire_horn"
+classes=["BA"]
