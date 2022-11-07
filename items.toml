@@ -2,13 +2,37 @@
 name="minstrelsepic:dagger"
 min=1
 max=4
-classes=["WA", "BA", "CO", "MA", "SO", "WI"]
+classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
 
 [[weapons]]
 name="minstrelsepic:short_sword"
-min=1
+min=2
+max=6
+classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
+
+[[weapons]]
+name="minecraft:stone_sword"
+min=5
 max=8
-classes=["WA", "BA"]
+speed=1.6
+recover=0.625
+classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
+
+[[weapons]]
+name="minecraft:diamond_sword"
+min=7
+max=11
+speed=1.6
+recover=0.625
+classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
+
+[[weapons]]
+name="minecraft:mace"
+min=7
+max=12
+speed=1.6
+recover=0.625
+classes=["WA", "PA"]
 
 [[instruments]]
 name="minstrelsepic:fire_horn"
