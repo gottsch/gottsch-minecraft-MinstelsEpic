@@ -1,27 +1,33 @@
+# all weapons are made of iron, unless otherwise noted ex. diamond sword
 [[weapons]]
 name="minstrelsepic:dagger"
+dice="1d4"
 min=1
 max=4
 classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
 
 [[weapons]]
 name="minstrelsepic:short_sword"
+dice="1d5+1"
 min=2
 max=6
 classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
 
 [[weapons]]
 name="minecraft:stone_sword"
-min=5
-max=8
+dice="1d5"
+min=1
+max=5
 speed=1.6
 recover=0.625
 classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
 
 [[weapons]]
 name="minecraft:diamond_sword"
-min=7
-max=11
+dice="1d6+1"
+min=2
+max=7
+durability=1000
 speed=1.6
 recover=0.625
 classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
