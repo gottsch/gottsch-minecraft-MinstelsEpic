@@ -1,0 +1,32 @@
+#
+[[classes]]
+  name="Warrior"
+  code="WA"
+  [[classes.histogram]]
+    attribute="strength"
+	  weight=25.0
+  [[classes.histogram]]
+    attribute="dexterity"
+    weight=12.5
+  [[classes.histogram]]
+    attribute="intelligence"
+    weight=12.5
+  [[classes.histogram]]
+    attribute="constitution"
+    weight=50.0
+    
+[[classes]]
+  name="Paladin"
+  code="PA"
+  [[classes.histogram]]
+    attribute="strength"
+    weight=20.0
+      [[classes.histogram]]
+    attribute="dexterity"
+    weight=17.5
+  [[classes.histogram]]
+    attribute="intelligence"
+    weight=22.5
+  [[classes.histogram]]
+    attribute="constitution"
+    weight=40.0
