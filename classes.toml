@@ -1,6 +1,6 @@
-#
+# NOTE Mage is the class, Conjuror, Magician, Sorcerer, Wizard, (Archmage) are the disiplines.
 [[classes]]
-  name="Warrior"
+  name="warrior"
   code="WA"
   [[classes.histogram]]
     attribute="strength"
@@ -16,7 +16,7 @@
     weight=50.0
     
 [[classes]]
-  name="Paladin"
+  name="paladin"
   code="PA"
   [[classes.histogram]]
     attribute="strength"
@@ -30,3 +30,35 @@
   [[classes.histogram]]
     attribute="constitution"
     weight=40.0
+    
+[[classes]]
+  name="bard"
+  code="BA"
+  [[classes.histogram]]
+    attribute="strength"
+    weight=15.0
+  [[classes.histogram]]
+    attribute="dexterity"
+    weight=25.0
+  [[classes.histogram]]
+    attribute="intelligence"
+    weight=25.0
+  [[classes.histogram]]
+    attribute="constitution"
+    weight=35.0
+    
+[[classes]]
+  name="mage"
+  code="MA"
+  [[classes.histogram]]
+    attribute="strength"
+    weight=10.0
+  [[classes.histogram]]
+    attribute="dexterity"
+    weight=15.0
+  [[classes.histogram]]
+    attribute="intelligence"
+    weight=50.0
+  [[classes.histogram]]
+    attribute="constitution"
+    weight=25.0
