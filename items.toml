@@ -1,44 +1,120 @@
 # all weapons are made of iron, unless otherwise noted ex. diamond sword
+# default speed=1.6
+# default recover=0.625
+# dice = desc of d&d style dice rolling ex. 1d4 = roll 1 4-sided die.
+# or could use rolls/die/bonus combo
+# or could use min/max combo
 [[weapons]]
 name="minstrelsepic:dagger"
 dice="1d4"
+rolls=1
+die=4
+bonus=0
 min=1
 max=4
-classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
+durability=150
+speed=1.8
+classes=["WA", "PA", "BA", "MA"]
 
 [[weapons]]
 name="minstrelsepic:short_sword"
-dice="1d5+1"
+dice="1d4+1"
 min=2
-max=6
-classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
+max=4
+durability=250
+speed=1.7
+classes=["WA", "PA", "BA", "MA"]
+
+[[weapons]]
+name="minecraft:gold_sword"
+dice="1d4"
+min=1
+max=4
+durability=32
+speed=1.6
+classes=["WA", "PA", "BA", "MA"]
+
+[[weapons]]
+name="minecraft:wood_sword"
+dice="1d4"
+min=1
+max=4
+durability=59
+speed=1.6
+classes=["WA", "PA", "BA", "MA"]
 
 [[weapons]]
 name="minecraft:stone_sword"
 dice="1d5"
 min=1
 max=5
+durability=131
 speed=1.6
-recover=0.625
-classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
+classes=["WA", "PA", "BA", "MA"]
+
+[[weapons]]
+name="minecraft:iron_sword"
+dice="1d6"
+min=1
+max=6
+durability=250
+speed=1.6
+classes=["WA", "PA", "BA", "MA"]
 
 [[weapons]]
 name="minecraft:diamond_sword"
 dice="1d6+1"
 min=2
 max=7
-durability=1000
+durability=1561
+speed=1.6
+classes=["WA", "PA", "BA", "MA"]
+
+[[weapons]]
+name="minecraft:netherite_sword"
+dice="2d4"
+min=2
+max=8
+durability=131
 speed=1.6
 recover=0.625
-classes=["WA", "PA", "BA", "CO", "MA", "SO", "WI"]
+classes=["WA", "PA", "BA", "MA"]
+
+[[weapons]]
+name="minecraft:broad_sword"
+dice="1d7"
+min=1
+max=7
+durability=250
+speed=1.5
+classes=["WA", "PA", "BA", "MA"]
 
 [[weapons]]
 name="minecraft:mace"
-min=7
-max=12
-speed=1.6
-recover=0.625
+dice="1d8"
+min=1
+max=8
+durability=250
+speed=1.4
 classes=["WA", "PA"]
+
+[[weapons]]
+name="minecraft:halbard"
+dice="1d16"
+min=1
+max=16
+durability=250
+speed=1.4
+classes=["WA", "PA"]
+
+[[weapons]]
+name="minecraft:dayblade"
+dice="1d16"
+min=4
+max=25
+durability=300
+speed=1.6
+classes=["WA", "PA", "BA"]
 
 [[instruments]]
 name="minstrelsepic:fire_horn"
