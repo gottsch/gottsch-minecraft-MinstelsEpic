@@ -4,6 +4,8 @@
 # dice = desc of d&d style dice rolling ex. 1d4 = roll 1 4-sided die.
 # or could use rolls/die/bonus combo
 # or could use min/max combo
+# all vanilla weapons' or unregistered weapons' damage is recalculated to the range of 1-max. No dex bonus, extra attacks or extra damage will be applied.
+# the idea is that the player will use the found mistrelsEpic weapons.
 [[weapons]]
 name="minstrelsepic:dagger"
 dice="1d4"
@@ -63,8 +65,8 @@ classes=["WA", "PA", "BA", "MA"]
 
 [[weapons]]
 name="minecraft:diamond_sword"
-dice="1d6+1"
-min=2
+dice="1d7"
+min=1
 max=7
 durability=1561
 speed=1.6
@@ -73,7 +75,7 @@ classes=["WA", "PA", "BA", "MA"]
 [[weapons]]
 name="minecraft:netherite_sword"
 dice="2d4"
-min=2
+min=1
 max=8
 durability=131
 speed=1.6
@@ -82,8 +84,8 @@ classes=["WA", "PA", "BA", "MA"]
 
 [[weapons]]
 name="minecraft:broad_sword"
-dice="1d7"
-min=1
+dice="1d6+1"
+min=2
 max=7
 durability=250
 speed=1.5
@@ -100,8 +102,8 @@ classes=["WA", "PA"]
 
 [[weapons]]
 name="minecraft:halbard"
-dice="1d16"
-min=1
+dice="4d4"
+min=4
 max=16
 durability=250
 speed=1.4
@@ -109,13 +111,20 @@ classes=["WA", "PA"]
 
 [[weapons]]
 name="minecraft:dayblade"
-dice="1d16"
+dice="4d6"
 min=4
-max=25
+max=24
 durability=300
 speed=1.6
 classes=["WA", "PA", "BA"]
 
 [[instruments]]
 name="minstrelsepic:fire_horn"
+dice="4d6"
+#specials = burns
+classes=["BA"]
+
+name="minstrelsepic:ice_horn"
+dice="3d6"
+#specials = freezes/slows
 classes=["BA"]
