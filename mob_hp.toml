@@ -11,5 +11,8 @@
     ad=[[1,4,0]]
   [[mobsDice.mobDie]]
     name="minecraft:skeleton"
-    hd=[[2,10,0],[1,4,0]
+    hd=[[2,10,0],[1,4,0]]
     ad=[[1,4,0]]
+  [[mobsDice.mobDie]]
+]
+  
