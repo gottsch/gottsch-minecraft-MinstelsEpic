@@ -1,2 +1,15 @@
-[hitDice]
-  [[hitDice.hitDie]]
+# holder object - does there need to be a holder?
+[mobsDice]
+  # hit die array
+  [[mobsDice.mobDie]]
+    # entity resource location
+    name="minecraft:zombie"
+    # arrary of arrays of hit dice values
+    # ex. 2d10+5 =~ 20hp (avg) = 10 hearts
+    hd=[[2,10,5]]
+    # array of arrays of attack dice values
+    ad=[[1,4,0]]
+  [[mobsDice.mobDie]]
+    name="minecraft:skeleton"
+    hd=[[2,10,0],[1,4,0]
+    ad=[[1,4,0]]
