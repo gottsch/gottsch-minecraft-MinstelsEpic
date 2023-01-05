@@ -1,0 +1,6 @@
+  # array of objects
+  dice = [
+    { name="minecraft:zombie", hd=[[2,10,5]], ad=[1,2,1]] },
+    { name="minecraft:skeleton", hd=[[2,10,0],[1,4,0]], ad=[1,4,0] },
+    { name="minstrelsepic:ghoul", hd=[[3,10,5]], ad=[1,4,1]] }
+  ]
