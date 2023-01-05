@@ -1,11 +1,16 @@
   # array of objects
   dice = [
+    # zombie-like
     { name="minecraft:zombie", hd=[[2,10,5]], ad=[[1,2,1]] }, # level1
-    { name="minecraft:skeleton", hd=[[2,10,0]],[1,4,0]], ad=[[1,4,0]] }, # level1
     { name="minstrelsepic:ghoul", hd=[[3,8,3]], ad=[[1,3,1]] }, # level2
     { name="minstrelsepic:draugr", hd=[[3,10,5]], ad=[[1,4,2]] }, # level2
     { name="minstrelsepic:wight", hd=[[5,8,6]], ad=[[2,4,3]] }, # level3
     { name="minstrelsepic:crypt_thing", hd=[[8,8,8]], ad=[[2,6,1]] }, #level5
     { name="minstrelsepic:dullahan", hd=[[8,8,8],[1,10,2]], ad=[[2,6,3]] }, #level7
     
+    # skeleton-like
+    { name="minecraft:skeleton", hd=[[2,10,0]],[1,4,0]], ad=[[1,4,0]] }, # level1
+    
+    # ghost-like
+    { name="minstrelsepic:poltergeist", hd=[[3,8,4]], ad=[[1,3,1]] }, # level2
   ]
