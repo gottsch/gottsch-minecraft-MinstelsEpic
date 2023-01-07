@@ -21,9 +21,10 @@
     
     # skeleton-like
     { name="minecraft:skeleton", hp=20, hd=[[2,10,0],[1,4,0]], ad=[[1,4,0]] }, # level 1
-    { name="minecraft:skeleton_champion", hp=25, hd=[[3,8,0],[1,4,0]], ad=[[1,5,1]] }, # level 2
-    { name="minecraft:skeleton_lord", hp=32, hd=[[5,5,8],[1,4,0]], ad=[[2,5,1]] }, # level 3
-    { name="minecraft:lich", hp=111, hd=[[12,10,40],[2,8,0]], ad=[[3,8,4]] }, # level 12 + spells
+    { name="minstrelsepic:skeleton_champion", hp=25, hd=[[3,8,0],[1,4,0]], ad=[[1,5,1]] }, # level 2
+    { name="minstrelsepic:skeleton_lord", hp=32, hd=[[5,5,8],[1,4,0]], ad=[[2,5,1]] }, # level 3
+    { name="minstrelsepic:gaki", hp=50, hd=[[8,8,10],[1,10,2]], ad=[[2,6,4]] }, #level 7
+    { name="minstrelsepic:lich", hp=111, hd=[[12,10,40],[2,8,0]], ad=[[3,8,4]] }, # level 12 + spells
     
     # ghost-like
     { name="minstrelsepic:poltergeist", hp=20, hd=[[3,8,4]], ad=[[1,3,1]] }, # level 2
