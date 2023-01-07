@@ -8,6 +8,7 @@
     { name="minstrelsepic:zombie_lord", hp=32, hd=[[5,8,8]], ad=[[2,4,0]] }, # level 3
     { name="minstrelsepic:wight", hp=30, hd=[[5,8,6]], ad=[[2,4,3]] }, # level 3
     { name="minstrelsepic:zuvembie", hp=35, hd=[[6,8,8]], ad=[[2,5,1]] }, # level 4
+    { name="minstrelsepic:swamp_mummy", hp=35, hd=[[6,8,8]], ad=[[2,5,1]] }, # level 4
     { name="minstrelsepic:crypt_thing", hp=40, hd=[[8,8,8]], ad=[[2,6,1]] }, #level 5
     { name="minstrelsepic:mummy", hp=40, hd=[[8,8,10]], ad=[[2,6,1]] }, #level 5
     { name="minstrelsepic:revenant", hp=44, hd=[[8,8,8], [1,5,2]], ad=[[2,6,2]] }, #level 6
@@ -16,9 +17,13 @@
     { name="minstrelsepic:vampire", hp=65, hd=[[10,10,10]], ad=[[2,8,3]] }, #level 9
     { name="minstrelsepic:mummy_lord", hp=70, hd=[[12,10,5]], ad=[[2,8,4]] }, #level 10
     { name="minstrelsepic:winter_wight", hp=270, hd=[[20,8,180],[1,10,2]], ad=[[3,8,4]] }, #level 17
+    { name="minstrelsepic:vampire_lord", hp=300, hd=[[20,10,200]], ad=[[3,10,5]] }, #level 18
     
     # skeleton-like
     { name="minecraft:skeleton", hp=20, hd=[[2,10,0],[1,4,0]], ad=[[1,4,0]] }, # level 1
+    { name="minecraft:skeleton_champion", hp=25, hd=[[3,8,0],[1,4,0]], ad=[[1,5,1]] }, # level 2
+    { name="minecraft:skeleton_lord", hp=32, hd=[[5,5,8],[1,4,0]], ad=[[2,5,1]] }, # level 3
+    { name="minecraft:lich", hp=111, hd=[[12,10,40],[2,8,0]], ad=[[3,8,4]] }, # level 12 + spells
     
     # ghost-like
     { name="minstrelsepic:poltergeist", hp=20, hd=[[3,8,4]], ad=[[1,3,1]] }, # level 2
